@@ -33,7 +33,7 @@
 const express=require('express');
 const path=require("path");
 const hbs=require("hbs");
-const port=8000;
+const port=process.env.PORT || 8000;
 const app=express();
 
 // public static path
